@@ -23,5 +23,9 @@ def blog(request):
     return render(request, 'blog/blog.html')
 
 
+def detail(request):
+    return render(request, 'blog/post-detail.html')
+
+
 def contact(request):
     return render(request, 'blog/contact.html')

@@ -51,3 +51,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.details p {
+    font-size: 50px;
+}
